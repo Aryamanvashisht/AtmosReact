@@ -10,7 +10,7 @@ A simple weather application built using **React**, **Tailwind CSS**, and **Type
 - TypeScript support for type safety.
 
 ## Screenshot
-
+![weatherApp](https://github.com/user-attachments/assets/0124031a-e50f-40d4-bd94-79786939cd01)
 
 ## Technologies Used
 
