@@ -113,7 +113,9 @@ function App() {
             </div>
           </>
         ) : (
-              <h1 className="text-white text-4xl mt-[50%] mb-[50%] font-semibold sm:text-4xl sm:mb-[30%] sm:mt-[30%] text-center justify-center">City Not Found !</h1>
+          <h1 className="text-white text-4xl mt-[50%] mb-[50%] font-semibold sm:text-4xl sm:mb-[30%] sm:mt-[30%] text-center justify-center">
+            {error}City Not Found !
+          </h1>
         )}
       </div>
     </div>
