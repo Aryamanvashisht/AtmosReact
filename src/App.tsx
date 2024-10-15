@@ -54,15 +54,15 @@ function App() {
   const getWeatherIconUrl = (value: string) => {
     switch (value) {
       case "Clouds":
-        return "/dist/thunder.png";
+        return "public/thunder.png";
       case "Rain":
-        return "/dist/rain_with_cloud.png";
+        return "public/rain_with_cloud.png";
       case "Mist":
-        return "/dist/Tornado.png";
+        return "public/Tornado.png";
       case "Haze":
-        return "/dist/sun.png";
+        return "public/sun.png";
       default:
-        return "/dist/sun.png";
+        return "public/sun.png";
     }
   };
 
@@ -113,9 +113,7 @@ function App() {
             </div>
           </>
         ) : (
-          <h1 className="text-white text-4xl mt-[50%] mb-[50%] font-semibold sm:text-4xl sm:mb-[30%] sm:mt-[30%] text-center justify-center">
-            {error}City Not Found !
-          </h1>
+            <h1 className="text-white text-4xl mt-[50%] mb-[50%] font-semibold sm:text-4xl sm:mb-[30%] sm:mt-[30%] text-center justify-center">{error}City Not Found !</h1>
         )}
       </div>
     </div>
